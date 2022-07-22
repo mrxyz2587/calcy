@@ -13,9 +13,9 @@ class Buttons extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Container(
-          constraints: BoxConstraints.tight(Size.fromRadius(30)),
+          constraints: BoxConstraints.tight(Size.fromRadius(60)),
           decoration: BoxDecoration(
-            shape: BoxShape.circle,
+            shape: BoxShape.rectangle,
             color: colour,
           ),
           child: Center(
